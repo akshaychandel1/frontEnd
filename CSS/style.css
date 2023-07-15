@@ -1,0 +1,24 @@
+/* selctor 
+{ 
+    css property : css value;
+} */
+
+/* 1> Element Selector */
+/* h3
+        {
+            color : purple;
+            font-family: robotic;
+        } */
+
+/* 2> Id Selector */
+#heading-1 
+{
+    font-family: 'Sans';
+}
+
+/* 3> Class Selector */
+
+.my-para
+{
+    color: rebeccapurple;
+}
