@@ -22,3 +22,72 @@
 {
     color: rebeccapurple;
 }
+
+/* 4> Attribute Selector */
+/* elmentName[attributeName condition] */
+/* I want to find the<a>whose href starts with https:// */
+a[href^="https://"]
+{
+    color: red;
+}
+a[href$=".jpg"]
+{
+    color: greenyellow;
+}
+a[href*="/"]
+{
+    color: brown;
+}
+/* for images */
+img[src^="https://"]
+{
+    border: 5px solid grey;
+}
+img[src^="../"]
+{
+    border: 5px solid green;
+}
+
+/* 5> pseudo selectors */
+/* elementName : pseudoProperty{...} */
+/* .unordered-list:first-child
+{
+    color: blueviolet;
+}
+.ordered-list:first-child
+{
+    color: red;
+}
+.ordered-list:nth-child(3)
+{
+    color: turquoise;
+} */
+h3:hover
+{
+    color: blueviolet;
+}
+
+/* COLORS IN CSS CAN BE DEFINED IN 3 WAYS */
+/* 1- Name color, 2-Hex Code  , 3- rgb(0,0,0) */
+
+h5
+{
+    color: #80a8ff;
+}
+
+/* linearGradient
+radialGradient */
+
+#Class-container-one
+{
+    width: 400px;
+    height: 400px;
+    /* background: linear-gradient(to top right, red, yellow, purple); */
+    background: linear-gradient(45deg, red, yellow, purple);
+}
+#Class-container-two
+{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+}
