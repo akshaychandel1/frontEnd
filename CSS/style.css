@@ -91,3 +91,28 @@ radialGradient */
     height: 400px;
     background-color: blueviolet;
 }
+
+/* UNITS OF MEASSUREMENTS */
+
+/* 1. > Abolute unit     
+    .Pixels (px)  only absolute for purpose-full machine not for all machines
+    . cm , mm , inc */
+    /* p
+{
+    font-size: 18px;
+}  */
+/* 2> Relative Units */
+    /* . (em) means times */
+    p
+    {
+        font-size: 1.em;
+    }
+
+img
+{
+    /* height: 50%; */
+    width: 50%;
+}
+
+
+
