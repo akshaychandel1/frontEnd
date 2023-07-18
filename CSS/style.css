@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 /* selctor 
 { 
     css property : css value;
 } */
 
+body
+{
+    background: linear-gradient(to bottom, rgba(102, 51, 153, 0.203) ,rgba(102, 51, 153, 0.916));
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
 /* 1> Element Selector */
 /* h3
         {
             color : purple;
-            font-family: robotic;
+            font-family: roboto;
         } */
 
 /* 2> Id Selector */
@@ -21,6 +29,7 @@
 .my-para
 {
     color: rebeccapurple;
+    font-size: 1.2em;
 }
 
 /* 4> Attribute Selector */
@@ -87,7 +96,7 @@ radialGradient */
 }
 #Class-container-two
 {
-    width: 400px;
+    width: 65%;
     height: 400px;
     background-color: blueviolet;
 }
@@ -123,12 +132,28 @@ img
 .divform
 {
     width: 100%;
-    margin: 5px;
-
+    
 }
 .formbox
 {
     border: 3px dashed blueviolet;
     padding: 10px;
 }
+.back
+{
+    width: 950px;
+    height: 850px;
+    background: url(https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-color: aquamarine; 
+    /* background-size: cover; */
+}
 
+.container3
+{
+    width: 800px;
+    height: 800px;
+    /* background: linear-gradient(90deg,black,red,blue,green,yellow,white); */
+    background: radial-gradient(circle,black 10%,red 11%,blue 12% ,green 50%,yellow 80%,white 90%);
+}
+/* font and font family */
