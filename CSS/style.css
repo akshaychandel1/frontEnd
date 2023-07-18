@@ -113,6 +113,22 @@ img
     /* height: 50%; */
     width: 50%;
 }
+.name
+{
+    width: 95%;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.divform
+{
+    width: 100%;
+    margin: 5px;
 
-
+}
+.formbox
+{
+    border: 3px dashed blueviolet;
+    padding: 10px;
+}
 

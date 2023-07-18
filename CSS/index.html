@@ -91,21 +91,25 @@
         </table>
         <hr/>
         <h3>HTML SignUp Forms</h3>
-        <form action="https://www.myBe.com">  
-          <span>User Name : </span><input type="text" placeholder="User Name"/> <br/><br/>
-          <input type="email" placeholder="User Email"> <br/><br/>
-          <input type="password" placeholder="Password"> <br/><br/>
-          <input type="date"><br/><br/>
-          <input type="range"><br/><br/>
-          <label for="">Enter the Gender</label><br><br>
-          <input type="checkbox">Male <br><br>      
-          <input type="checkbox">FeMale <br><br>
-          <input type="checkbox">Others <br><br>
+        <div class="formbox"> <form class="form" action="https://www.myBe.com">  
+          <div class="divform"> <input class="name" type="text" placeholder="User Name"/>  
+          </div>
+          <div class="divform"> 
+            <input class="name" type="email" placeholder="User Email"> 
+          </div>
+          <div class="divform"> <input class="name" type="password" placeholder="Password"> 
+          </div>
+            <input type="date">
+            <div class="divform"> <input class="divform" type="range"> </div>
+          <label for="">Enter the Gender</label>
+          <input class="divform" type="checkbox">Male     
+          <input class="divform" type="checkbox">FeMale 
+          <input class="divform" type="checkbox">Others 
 
-          <label for="Gender">Enter the Gender</label><br><br>
-          <input type="radio" name="gender">Male <br><br>      
-          <input type="radio" name="gender">FeMale <br><br>
-          <input type="radio" name="gender">Others <br><br>
+          <label for="Gender">Enter the Gender</label>
+          <input type="radio" name="gender">Male       
+          <input type="radio" name="gender">FeMale 
+          <input type="radio" name="gender">Others 
        
           <select name="gender" id="">
             <option value="Male">Male</option>
@@ -119,7 +123,8 @@
           </label>
           <input type="color">
           <input type="submit" value="Sign Up">
-        </form><br><br>
+        </form>
+      </div><br><br>
 
         <h3>HTML5 Semantics</h3>
         <div>
