@@ -6,11 +6,56 @@
 
 body
 {
-    background: linear-gradient(to bottom, rgba(102, 51, 153, 0.203) ,rgba(102, 51, 153, 0.916));
-    font-family: 'Roboto', sans-serif;
+    /* background: linear-gradient(to bottom, rgba(102, 51, 153, 0.203) ,rgba(102, 51, 153, 0.916));
+    font-family: 'Roboto', sans-serif; */
     font-size: 1.2em;
-    text-align: center;
+    /* text-align: center; */
 }
+/* IMPORT */
+/* CREATE A DIV AND ALIGN THE DIV AND THE CONTENT OF THE DIV TO THE CENTER OF THE PAGE */
+#container
+{
+    /* FLEX dispaly property is given to parent always */
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+
+    /* justify-content: center,space-between; */
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+/* CREATE A DIV AND ALIGN THE DIV AND THE CONTENT OF THE DIV TO THE CENTER OF THE PAGE */
+
+.container-item
+{
+    width: 100px;
+    height: 100px;
+    background: green;
+    color: white;
+    font-size: 3.8em;
+    text-align: center;
+    margin: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 1> Element Selector */
 /* h3
         {
@@ -19,9 +64,17 @@ body
         } */
 
 /* 2> Id Selector */
+h2
+{
+     /* INtervie question */
+     text-shadow: -5px -10px 2px red, -5px -10px 2px red;
+     /* offset-x | offset-y | blur-radius | color */
+}
 #heading-1 
 {
     font-family: 'Sans';
+
+
 }
 
 /* 3> Class Selector */
@@ -30,6 +83,10 @@ body
 {
     color: rebeccapurple;
     font-size: 1.2em;
+}
+a
+{
+    text-decoration: none;
 }
 
 /* 4> Attribute Selector */
@@ -142,18 +199,29 @@ img
 .back
 {
     width: 950px;
-    height: 850px;
+    height: 1150px;
     background: url(https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg);
     background-repeat: no-repeat;
     background-color: aquamarine; 
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 .container3
 {
-    width: 800px;
+    margin: 5px;
+    width:  800px;
     height: 800px;
     /* background: linear-gradient(90deg,black,red,blue,green,yellow,white); */
     background: radial-gradient(circle,black 10%,red 11%,blue 12% ,green 50%,yellow 80%,white 90%);
 }
 /* font and font family */
+.container4
+{
+    width: 800px;
+    height: 800px;
+    margin-left:40%;
+    background: khaki;
+    border-radius: 50%;
+}
+
+                /* CSS FLEXBOX */
