@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+    />
+    <title>HTML 5 Boilerplate</title>
+  </head>
+  <body>
+    <h1>Welcome to Bootstarp</h1>
+    <h1 class="container">Welcome to Bootstarp</h1>
+    <h1 class="container-fluid">Welcome to Bootstarp</h1>
+    <h1 class="page-header">Welcome to Bootstarp</h1>
+    <!-- 1> Download Bootstarp -->
+    <!-- 3> Using Bootstrap CDN -->
+    <div class="container-fluid">
+      <!--//generally for heading -->
+      <p class="lead">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint
+        deserunt ullam ratione praesentium optio et placeat ipsam officia
+        blanditiis qui laborum modi aspernatur, aliquam, cumque quam beatae
+        natus minus magni repellat explicabo voluptas!
+      </p>
+    </div>
+    <div class="container">
+      <!-- -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus
+        cum quaerat aliquam facilis tempora odit, laudantium esse quasi ullam
+        praesentium.
+      </p>
+    </div>
+
+    <hr />
+    <div class="container">
+      <p class="text-left text-captalise">Text Align</p>
+      <p class="text-center">Text Align</p>
+      <p class="text-right">Text Align</p>
+
+      <hr />
+      <h3>Contextual - Classes--</h3>
+      to define color
+      <!-- primary -> blue , success-> green , danger -> red, muted -> gray , info -> light-blue , warning -> yellow -->
+
+      <p class="text-primary">contextual class</p>
+      <p class="text-success">contextual class</p>
+      <p class="text-warning">contextual class</p>
+      <p class="text-danger">contextual class</p>
+      <p class="text-muted">contextual class</p>
+      <p class="text-info">contextual class</p>
+
+      <p class="bg-primary">contextual class</p>
+      <p class="bg-success">contextual class</p>
+      <p class="bg-warning">contextual class</p>
+      <p class="bg-danger">contextual class</p>
+      <p class="bg-info">contextual class</p>
+      <p class="bg-muted">contextual class</p>
+      <!-- bg-muted not works -->
+
+      <h3>Buttons / Submit and anchor tags</h3>
+      <button class="btn btn-primary">Button</button>
+      <input class="btn btn-success" type="submit" value="SUBMIT" />
+      <a class="btn btn-danger" href="#">ANCHOR</a>
+
+      <button class="btn btn-primary btn-lg">BUTTON</button>
+      <button class="btn btn-primary btn-sm">BUTTON</button>
+      <button class="btn btn-primary btn-xs">BUTTON</button>
+
+      <table class="table table-bordered table-condensed table-hover">
+        <tr>
+          <!--Table rows tr-->
+          <th>Emp_ID</th>
+          <th>Emp_Name</th>
+          <th>Emp Email</th>
+          <th>Emp Designation</th>
+        </tr>
+        <br />
+        <tr>
+          <td>2345</td>
+          <td>Aman</td>
+          <td>aman@gmail.com</td>
+          <td>Designer</td>
+        </tr>
+        <tr>
+          <td>3456</td>
+          <td>Amit</td>
+          <td>amit@gmail.com</td>
+          <td>UI/UX</td>
+        </tr>
+        <tr>
+          <td>4567</td>
+          <td>Aayush</td>
+          <td>aayush@gmail.com</td>
+          <td>FrontEnd-Developer</td>
+        </tr>
+        <tr>
+          <td>5678</td>
+          <td>Ashish</td>
+          <td>ashish@gmail.com</td>
+          <td>BackEnd-Developer</td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+
+    <!-- <div class="container-fluid">
+        <div class="form-control"> <form class="form" action="https://www.myBe.com">  
+          <div class="form-group"> <input class="form-control" type="text" placeholder="User Name"/>  
+          </div>
+          <div class="form-group"> 
+              <input class="form-control" type="email" placeholder="User Email"> 
+          </div>
+          <div class="form-group"> <input class="form-control" type="password" placeholder="Password"> 
+          </div>
+            <input type="date">
+            <div > 
+              <input class="form-control" type="range"> </div>
+          <label for="">Enter the Gender</label>
+          <div class="form-group"><input class="form-control" type="checkbox">Male     
+            <input class="form-control" type="checkbox">FeMale 
+            <input class="form-control" type="checkbox">Others</div> 
+
+          <div class="form-group"><label for="Gender">Enter the Gender</label>
+            <input class="form-control" type="radio" name="gender">Male       
+            <input class="form-control" type="radio" name="gender">FeMale 
+            <input class="form-control" type="radio" name="gender">Others </div>
+       
+            <div class="form-group"><select name="gender" id="">
+        <option class="form-control" value="Male">Male</option>
+        <option class="form-control" value="Female">Female</option>
+        <option class="form-control" value="Others">Others</option>
+        </select></div>
+          
+        <div> <button class="form-control" onclick="alert('Button Clicked')">Click ME</button></div>  <!--we can also use console.log as at the palce of alert -->
+    <div  class="form-group">
+        <label for="upload your cv">
+          <input class="form-control" type="file">
+        </label>
+        <input type="color">
+        <input class="btn btn-success" type="submit" value="Sign Up">
+       </div>
+        </form>
+      </div>
+  </div>
+</div>
+    <hr />
+
+    <div class="container-fluid">
+      <h3>Navigation bar</h3>
+      <div class="container">
+        <ul class="list-unstyled">
+          <li>Item-1</li>
+          <li>Item-2</li>
+          <li>Item-3</li>
+          <li>Item-4</li>
+        </ul>
+        <ol
+          style="
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+          "
+          class="list-unstyled list-inline"
+        >
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">PRODUCTS</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">ABOUT US</a></li>
+        </ol>
+      </div>
+    </div>
+    <hr />
+    <div class="container-fluid"><h3>PANELS Or Cards:-</h3></div>
+    <div class="container">
+      <div class="panel">
+        <div class="panel-heading">Panel Heading</div>
+        <div class="panel-">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            praesentium, nostrum in fuga quo fugiat corporis consectetur
+            assumenda exercitationem dolor, veritatis magni impedit voluptas
+            eaque sunt sit. Ipsam, ex obcaecati!
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <div class="container-fluid"><h3>BS Grid:-</h3></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="panel panel-success">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel-">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                praesentium, nostrum in fuga quo fugiat corporis consectetur
+                assumenda exercitationem dolor, veritatis magni impedit voluptas
+                eaque sunt sit. Ipsam, ex obcaecati!
+              </p>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-lg-4">
+            <div class="panel panel-danger">
+              <div class="panel-heading">Panel Heading</div>
+              <div class="panel-">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                  praesentium, nostrum in fuga quo fugiat corporis consectetur
+                  assumenda exercitationem dolor, veritatis magni impedit voluptas
+                  eaque sunt sit. Ipsam, ex obcaecati!
+                </p>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-lg-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                praesentium, nostrum in fuga quo fugiat corporis consectetur
+                assumenda exercitationem dolor, veritatis magni impedit voluptas
+                eaque sunt sit. Ipsam, ex obcaecati!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="height: 500px"></div>
+  </body>
+</html>
