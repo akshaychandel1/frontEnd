@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplates</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>HTML 5 Elements</h1>
+    <!-- heding elements  h1 to h6 -->
+    <!-- Self ending Elements -->
+    <hr>
+    <!-- paragraph -->
+    <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Nemo, odit!</p><p>hello i am here</p>
+    <!-- ALL HTML HAVE SOME DEFAULT STYLE  -->
+    <!-- Lists 
+    > ordered list ol > Unordered list ul -->
+    Attributes - Elements ko functionallity provide krate h 
+    <ol type="i">
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+    </ol>
+    <ul>  
+         <!-- default bullet points can not be changed by using type   -->
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+    </ul>
+    <!-- Self ending Elements -->
+    <hr> <br>
+    <h3>Images</h3>
+    <!-- Path 
+    1. Absolute
+    2. Relative
+    3. Root Relative link -->
+    <img src="https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg" alt="" width="150"/>
+    <img src="./assets/2560x1440-tom-clancys-ghost-recon-breakpoint_1578850963.jpg" alt="image1" width="30%"><hr/>
+    <!-- back jane ke liye ../ -->
+    <img src="../html/assets/2560x1440-tom-clancys-ghost-recon-breakpoint_1578850963.jpg" alt="image2" width="30%"/>
+    <p>Click <a href="https://www.google.com/">here</a> to go to google</p>
+    <p>Click <a target="_blank" href="https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg">here</a> to go to google</p>
+        <p>Go to second page</p>
+        <hr/>
+        <h3>Tables</h3>
+        <table border="2px solid blaxk">
+          <tr>    <!--Table rows tr-->
+            <th>Emp_ID</th>
+            <th>Emp_Name</th>
+            <th>Emp Email</th>
+            <th>Emp Designation</th>
+          </tr>       
+          <br/>
+          <tr>
+            <td>01234</td>
+            <td>Akshay</td>
+            <td>akshay@gmail.com</td>
+            <td>Developer</td>
+          </tr>
+        </table>
+        <hr/>
+        <h3>HTML SignUp Forms</h3>
+        <form action="https://www.myBe.com">  
+          <span>User Name : </span><input type="text" placeholder="User Name"/> <br/><br/>
+          <input type="email" placeholder="User Email"> <br/><br/>
+          <input type="password" placeholder="Password"> <br/><br/>
+          <input type="date"><br/><br/>
+          <input type="range"><br/><br/>
+          <label for="">Enter the Gender</label><br><br>
+          <input type="checkbox">Male <br><br>      
+          <input type="checkbox">FeMale <br><br>
+          <input type="checkbox">Others <br><br>
+
+          <label for="Gender">Enter the Gender</label><br><br>
+          <input type="radio" name="gender">Male <br><br>      
+          <input type="radio" name="gender">FeMale <br><br>
+          <input type="radio" name="gender">Others <br><br>
+       
+          <select name="gender" id="">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+       </select><br><br>
+         <button onclick="alert('Button Clicked')">Click ME</button>  <!--we can also use console.log as at the palce of alert -->
+       <br><br>
+          <label for="upload your cv">
+            <input type="file">
+          </label>
+          <input type="color">
+          <input type="submit" value="Sign Up">
+        </form><br><br>
+
+        <h3>HTML5 Semantics</h3>
+        <div>
+          <!-- Header -->
+          <div id="header"></div>
+          <!-- sidebar -->
+          <div id="sidebar"></div>
+          <!-- main -->
+          <div id="main">
+            <div id="article-1"></div>
+            <div id="article-2"></div>
+            <div id="article-3"></div>
+            <div id="article-4"></div>
+          </div>
+          <!-- Footer -->
+          <div id="footer"></div>
+        </div>
+       <!-- another syntax by semantics -->
+        <div>
+          <header>
+            <nav></nav>
+          </header>
+          <aside></aside>
+          <main>
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
+          </main>
+          <footer></footer>
+        </div>
+        <h3>HTML 5 Multimedia</h3>
+        <h4>Videos</h4>
+        <h5 border="2px solid black">video and audio tags require controls attribute for use</h5>
+        <video src="./assets/video (2160p).mp4" width="40%" controls></video>   
+        <h3>Audio</h3>
+        <audio src="./assets/audio/file_example_MP3_700KB.mp3" controls></audio>
+
+        <h2>Google Maps</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61562.89497589231!2d76.56818051565509!3d30.777551316934417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ffa9485c539a5%3A0x7e32a159650281bc!2sRayat-Bahra%20University!5e0!3m2!1sen!2sin!4v1689396858364!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2>Youtube Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uYPbbksJxIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+        <script src="./dom.js"></script>
+  
+    </body>
+</html>

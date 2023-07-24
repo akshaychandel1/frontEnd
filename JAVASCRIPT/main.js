@@ -151,21 +151,33 @@
 // // console.log(numbers);
 
 
+
+
+
+
 // //  Arrays Methods
 // numbers.push(60)
 // console.log(numbers)
 
 
+
+
 // let myArr1 = [101,210,301,401,501]
 // // console.log(myArr1);
-// //  Array Spread Opreators
-// // let myArr2 = myArr1;            // This is not copy mech.. address of arr1 to arr2  arrays in JS is refference type
+
+// // let myArr2 = myArr1;            // This is not copy mech.. address of arr1 to arr2  arrays in JS is refference type variable
 // // console.log(myArr1);
-// let myArr2 = [...myArr1]
+
+    // //  Array Spread Opreators
+// let myArr2 = [...myArr1]          //to copy one array to other
+
 // myArr2.push(101);
 // myArr1.push(-1);
 // console.log(myArr1);
 // console.log(myArr2);
+
+
+
 
 
 // // Methods 
@@ -186,6 +198,8 @@
 // let combinedArray = myArr1.concat(myArr2)
 // console.log(combinedArray);
 
+
+
 // let dummyArray = [10, "string",true,null,undefined]
 // console.log(dummyArray)
 
@@ -193,8 +207,18 @@
 // console.log(twoDArray)
 // console.log(twoDArray[1][2])
 
+
+
+
+
+
 // 2> JS OBJECTS - {} :-
 // let Obj = { key1: value1, key2: value2 }
+
+
+
+
+
 
 // let myobj = {
     // name : "user one" ,
@@ -232,7 +256,13 @@
 //     }
 // }
 
+
+
+
 // 3>. ARRAY OF OBJECTS :- [ {},{},{} ]
+
+
+
 const users = [
     {
         name : "user one" ,
@@ -258,7 +288,7 @@ const users = [
     address :                         /// address ka datatype object h
     {
         street : "street-1",
-        city : "Kharar",
+        city : "Kharar", 
         state : "Punjab",
         pincodes: [1234,4560]
     }
